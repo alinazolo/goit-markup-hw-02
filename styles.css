@@ -1,0 +1,57 @@
+/* Common */
+:root {
+    --main-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-color: #F5F4FA;
+
+  }
+body {
+    font-family: Roboto;
+    background-color: #FFFFFF;
+    color: var(--main-text-color);
+    
+}
+
+li {
+    list-style: none;
+}
+/* Header */
+
+/*logo */
+.logo {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #000000;
+text-decoration: none;
+}
+
+.web {
+   color: #2196F3
+}
+
+/* nav */
+.site-nav {
+font-family: inherit;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: var(--title-text-color);
+text-decoration: none;
+
+}
+
+.current-link {
+color: var(--accent-color)
+}
+
+/* Footer */
+
+/* Studio  */
+
+
+/* Portfolio */
