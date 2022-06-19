@@ -4,6 +4,7 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary-color: #F5F4FA;
+    --secondary-background: #2F303A;
 
   }
   /* Base */
@@ -48,31 +49,29 @@ text-decoration: none;
 }
 
 /* nav */
-.link.nav {
+.nav {
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--title-text-color);
 }
-.link.nav.current {
+.nav.current {
 color: var(--accent-color);
 }
-.link.nav:hover,
-.link.nav:focus {
+.nav:hover,
+.nav:focus {
     color: var(--accent-color);
 }
 
  /* adress */
- .link.contact {
+ .contact {
 font-weight: 500;
 line-height: 1.1;
 letter-spacing: 0.02em;
 color: var(--main-text-color);
  }
- .link.contact:visited {
-    color: var(--main-text-color);
- }
-.link.contact:hover,
+
+.contact:hover,
 .link.contact:focus {
 color: var(--accent-color);
  }
@@ -83,7 +82,7 @@ color: var(--accent-color);
 .hero {
 height: 600px;
 width: 1600px;
-background-color: #2F303A;
+background-color: var(--secondary-background);
 }
 
 .title-hero {
@@ -110,6 +109,7 @@ background-color: var(--accent-color);
 padding: 10px 32px;
 border-radius: 4px;
 border: none;
+cursor: pointer;
 }
 
 .button-hero:hover {
@@ -163,7 +163,7 @@ color: var(--main-text-color);
 /* Portfolio */
 
 /* button */
-.filter.button {
+.filter {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
@@ -175,10 +175,11 @@ background-color: var(--primary-color);
 padding: 6px 22px;
 border-radius: 4px;
 border: none;
+cursor: pointer;
 }
 
-.filter.button:hover,
-.filter.button:focus {
+.filter:hover,
+.filter:focus {
     background-color: var(--accent-color);
     color: #FFFFFF;
 }
@@ -203,18 +204,21 @@ color: var(--main-text-color);
 
 /* Footer */
 .footer {
-    background-color: #2F303A;
+    background-color: var(--secondary-background);
 }
 .logo.footer {
     color: #FFFFFF;
 }
-.link.adress {
+.adress {
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 font-style: normal
 }
-.link.adress.place {
+.place {
     color: #FFFFFF;
+}
+.adress:hover {
+    color: var(--accent-color);
 }
