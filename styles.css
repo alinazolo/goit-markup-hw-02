@@ -10,7 +10,6 @@
   /* Base */
 body {
     font-family: Roboto, sans-serif;
-    font-size: 14px;
     background-color: #FFFFFF;    
 }
 li {
@@ -50,6 +49,7 @@ text-decoration: none;
 
 /* nav */
 .nav {
+font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -65,6 +65,7 @@ color: var(--accent-color);
 
  /* adress */
  .contact {
+font-size: 14px;
 font-weight: 500;
 line-height: 1.1;
 letter-spacing: 0.02em;
@@ -98,6 +99,7 @@ padding: 200px 452px 30px 452px;
 }
 
 .button-hero {
+font-family: inherit;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
@@ -119,12 +121,14 @@ cursor: pointer;
 /* Advantage */
 
 .title-advantage { 
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-text-color);
 }
 .advantage {
+font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--main-text-color);
@@ -145,18 +149,20 @@ color: var(--title-text-color);
 
 .item-team {
     background-color: #FFFFFF;
-    font-size: 16px;
-    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
 
 }
 .title-name {
+font-size: 16px;
 font-weight: 500;
+line-height: 1.18;
 color: var(--title-text-color);
 }
 
 .about {
+font-size: 16px;
+line-height: 1.18;
 color: var(--main-text-color);
 
 }
@@ -164,6 +170,7 @@ color: var(--main-text-color);
 
 /* button */
 .filter {
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
